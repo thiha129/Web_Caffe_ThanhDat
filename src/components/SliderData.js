@@ -1,0 +1,22 @@
+export const SliderData = [
+  {
+    image:
+      'https://picsum.photos/id/237/536/354'
+  },
+  {
+    image:
+      'https://picsum.photos/id/1084/536/354?grayscale'
+  },
+  {
+    image:
+      'https://picsum.photos/id/237/536/354'
+  },
+  {
+    image:
+      'https://picsum.photos/id/1084/536/354?grayscale'
+  },
+  {
+    image:
+      'https://picsum.photos/id/237/536/354'
+  }
+];

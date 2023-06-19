@@ -1,0 +1,76 @@
+:root {
+  --primary-color: rgb(249, 228, 228);
+}
+.s-noti li{
+  width: 100%;
+}
+
+/* .s-noti .nav-item :hover + .notification_ul {
+  display: block;
+ 
+} */
+.notification_ul {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 404px;
+  background-color: white;
+  /* display: none; */
+}
+.s-noti .nav-item :active + .notification_ul {
+  display: none;
+ background-color: turquoise;
+}
+.header__notify {
+  height: 40px;
+  background-color: white;
+}
+.header__notify h2 {
+  color: rgb(0, 0, 0);
+  margin: 0 0 0 12px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 40px;
+}
+.notify-item {
+  display: flex;
+}
+.notify-item:hover {
+  background-color: #ddd;
+}
+.notify-item-send {
+  background-color: rgba(249, 228, 228, 0.5);
+}
+
+.notify_link {
+  display: flex;
+  width: 100%;
+  padding: 12px;
+}
+
+.notify_img {
+  width: 100px;
+  object-fit: contain;
+}
+.notify_info {
+  margin-left: 12px;
+  text-align: left;
+}
+.title-link {
+  display: block;
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+}
+.sub_title {
+  display: block;
+  font-size: 12px;
+  color: #756f6e;
+}
+.show_all {
+  padding: 4px 16px;
+}
+.show_all-title {
+  font-size: 16px;
+}

@@ -1,0 +1,26 @@
+.dulieufake2 {
+  text-align: center;
+}
+
+.dulieufake2-logo {
+  animation: dulieufake2-logo-spin infinite 20s linear;
+  height: 20px;
+}
+
+.dulieufake2 .dulieufake2-header 
+
+.dulieufake2-header {
+  background-color: #222;
+  height: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.dulieufake2-intro {
+  font-size: large;
+}
+
+@keyframes dulieufake2-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

@@ -1,0 +1,138 @@
+
+
+.box-containersanpham1{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: "center";
+	align-items: center;
+	align-content: center;
+    background-color: rgba(68, 157, 165, 0);
+
+}
+.boxsanpham1{
+     display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+    width: min-content;
+    background: #fff;
+    border:1px solid rgba(220, 220, 220);
+    position:relative;
+    overflow:hidden;
+    margin:10px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 6px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.boxsanpham1:hover{
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5), 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.boxsanpham1 h3{
+    background: #fff;
+    position:relative;
+    overflow:hidden;
+    margin-left:5px;
+    font-size: 18px;
+}
+
+.boxsanpham1 .imagesanpham1{
+    padding: 5px;
+    /* background: #eeee; */
+    text-align: center;
+}
+
+.boxsanpham1 .imagesanpham1 img{
+    height:160px;
+    width:258px;
+    object-fit: cover;
+    filter: drop-shadow(0 3px 5px rbga(0,0,0,.7));
+}
+
+.boxsanpham1 .infosanpham1 .titlesanpham1{
+    padding: 5px;
+    /* color: #666; */
+    font-size:10px;
+}
+
+.boxsanpham1 .infosanpham1 .subInfosanpham1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-top:1px solid rgba(0,0,0,.3);
+}
+
+.boxsanpham1 .infosanpham1 .subInfosanpham1 .pricesanpham1{
+    color: rgb(255, 4, 4);
+    font-size: 13px;
+}
+
+.boxsanpham1 .infosanpham1 .subInfosanpham1 .pricesanpham1 span{
+    color: #999;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+
+
+.boxsanpham1 .infosanpham1 .subInfosanpham1 .startsanpham1 i{
+    color:orange;
+    font-size:10px;
+}
+
+.fa-star  {
+    color:orange;
+}
+
+.boxsanpham1 .overlaysanpham1 a{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+.boxsanpham1 .overlaysanpham1{
+    position: absolute;
+    top:0; left:0;
+    height:170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:none;
+    transform: scale(0);
+    background: rgba(255, 255, 255, 0);
+}
+
+.boxsanpham1:hover .overlaysanpham1{
+    transform: scale(1);
+}
+
+.boxsanpham1 .overlaysanpham1 a{
+    background: rgba(255, 255, 255, 0);
+    margin: 10px;
+    padding: 10px 13px;
+    font-size: 20px;
+    transform: translateY(-150px);
+    transition-property: transform;
+    transition-delay: calc(.1s);
+}
+
+.boxsanpham1 .overlaysanpham1 a:hover{
+    color: orange;
+}
+
+.boxsanpham1:hover .overlaysanpham1 {
+    transform: translateY(1px);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,249 @@
+
+.cart-body{
+  background: rgb(242, 254, 255);
+  min-height: 600px;
+  vertical-align: middle;
+  display: flex;
+  font-family: Tahoma , sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.cart-wrapper {
+  margin: auto;
+  max-width: 950px;
+  width: 90%;
+  box-shadow: 1px 6px 10px 2px rgb(0 0 0 / 19%) ;
+  border-radius: 1rem;
+  border: transparent;
+}
+
+.cart-inner {
+  margin: 0;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.left_cart{
+  position: relative;
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+.right_cart{
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+  width: 100%;
+}
+.summary {
+  background-color: rgb(220, 243, 245);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: rgb(65, 65, 65);
+  padding: 0 30px 30px 30px;
+}
+.card_title{
+  margin-bottom: 5vh;
+}
+.cart_col{
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+.ctext-muted{
+  color: #6c757d!important;
+  padding: 0 1vh;
+  text-align: right!important;
+  align-self: center!important;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.crow-border{
+  border-bottom: 1px solid #dee2e6!important;
+}
+.crow-items{
+  align-items: center!important;
+}
+.cmain{
+  margin: 0;
+  padding: 2vh 0;
+  width: 100%;
+}
+
+.cart_col2 img{
+  vertical-align: middle;
+  border-style: none;
+}
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+.ccart{
+  background-color: rgba(255, 255, 255, 0.637);
+  padding-left: 4vh;
+  padding-right: 4vh;
+  box-shadow: 1px 1px 5px 1px rgb(0 0 0 / 19%) ;
+
+}
+.text-muted{
+  color: #6c757d!important;
+}
+.cart_col a{
+  color: black;
+  padding: 0 1vh;
+  text-decoration: none;
+  background-color: transparent;
+}
+.closec{
+  margin-left: auto;
+  font-size: 0.7rem !important;
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+.back-to-shop{
+  margin-top: 1rem;
+}
+.right_cart h5{
+  margin-top: 10px;
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.right_cart hr{
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  margin-top: 1.25rem;
+}
+.ctext-right{
+  text-align: right!important;
+  font-size: 15px;
+  min-width: 150px;
+}
+.dontdepzai p{
+  margin-top: 0;
+  margin-bottom: 1rem;    
+}
+.cart_col button{
+  background-color: #fff;
+  border: none;
+  border-color: #fff;
+}
+.dontdepzai select{
+  margin: 0;
+  font-family: Tahoma , sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 1.5vh 1vh;
+  margin-bottom: 4vh;
+  outline: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+#code_cart{
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.185)), url(https://img.icons8.com/small/16/000000/long-arrow-right.png);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center;
+}
+.dontdepzai input{
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 1vh;
+  margin-bottom: 4vh !important;
+  outline: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  margin: 0;
+  font-family: Tahoma , sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+}
+.CbtnC{
+  background-color: #000;
+  border-color: #000;
+  color: white;
+  width: 100%;
+  font-size: 0.7rem;
+  margin-top: 4vh;
+  padding: 1vh;
+  border-radius: 0;
+}
+.totals-rows{
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  min-height: 70px;
+  background-color: #fff;
+}
+.back-to-shop{
+  width: 30%;
+  float: left;
+}
+.pay_form{
+  width: 70%;
+  float: right;
+}
+.r_pay{
+  float: right;
+  padding-top: 1.5em;
+}
+.pay_text{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.payt_items{
+    font-size: 16px;
+    color: #222;
+    line-height: 19px;
+}
+.payt_totals{
+  font-size: 24px;
+    line-height: 28px;
+    margin-left: 5px;
+    color: #009387;
+}
+.pay_btn{
+    padding: 13px 36px;
+    margin: 0 0px 0 15px;
+    text-transform: capitalize;
+    font-weight: 300;
+    height: 2.5rem;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: .875rem;
+    border-radius: 2px;
+    width: 13.125rem;
+    background: #009387;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    line-height: 1;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    transition: opacity .2s ease;
+}
+.left_cart .carousel{
+  width: 100% !important;
+  text-align: center !important;
+}

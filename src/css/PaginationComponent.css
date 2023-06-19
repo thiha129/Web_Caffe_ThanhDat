@@ -1,0 +1,16 @@
+/* .pag{
+    height: 100%;
+    width: 75%;
+    background-color: aqua;
+    display: flex;
+  flex-direction: row-reverse;
+  
+} */
+.pag {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
